@@ -1,0 +1,38 @@
+.chart-container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.bar {
+  background-color: #3498db;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.5s;
+}
+
+.bar:nth-child(1) {
+  left: 20px;
+}
+
+.bar:nth-child(2) {
+  left: 60px;
+}
+
+.bar:nth-child(3) {
+  left: 100px;
+}
+
+.bar:nth-child(4) {
+  left: 140px;
+}
+
+.bar:nth-child(5) {
+  left: 180px;
+}
+
+.bar:nth-child(6) {
+  left: 220px;
+}

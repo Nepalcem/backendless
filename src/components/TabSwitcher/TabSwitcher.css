@@ -1,0 +1,26 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.tablist {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.tab {
+  padding: 2px 4px;
+  border: 1px solid #000;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tab:hover {
+    background-color: azure;
+}
+.tab a {
+    text-decoration: none;
+}
+.tab.active {
+  background-color: #ccc; /* Set the active tab's background color */
+}
